@@ -5,6 +5,7 @@ print("Hola mundo")
 esto es otro comentario
 """
 
+
 # tipos de variables
 print("Tipos de variabñes")
 print(type(print))
@@ -16,7 +17,7 @@ print(type("hola" [0]))
 
 '''variables'''
 print("---Variables---")
-
+nameame = input("Practica") # input de pantalla
 name = "Borja"
 print(type(name))
 
@@ -31,6 +32,7 @@ print(type(age))
 
 print("Recoger valores por pantalla")
 id = input("¿que id quieres añadir?")
+
 print(id)
 
 '''string '''
@@ -64,3 +66,13 @@ print(address.startswith("ca"))
 print("Py" == "Py")
 print("hola" > "hola")
 print("x2" *2)
+
+'''listas --son muutables y tienen un orden fijado'''
+print("---Listas---")
+lista = ["a","b","c","d","e"]
+lista.append("f")
+lista.append("g")
+lista.append("h")
+lista.append("i")
+lista.append("j")
+"""Mas info en otro fichero"""
